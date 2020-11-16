@@ -1,0 +1,14 @@
+Hallo Karin, 
+
+Hier meine Kommentare zu deine Abgabe. Ich habe mir den zweiten Versuch angesehen, den du abgegeben hast. 
+Beim Import habe ich einen Fehler bei einem Insert-Statement erhalten. Die Erstellung der Tables hat funktioniert. 
+
+Du hast die Datentypen sinnvoll gewählt und fast alle Primarykeys richtig gesetzt.
+Bei einer Kreuztabelle besteht der Primarykey aus einem zusammengesetzten Schlüssel (herlper_id und event_id).
+Ein zusätzlicher künstlicher Schlüssel wird nicht benötigt. 
+
+Einen Fehler bei den Fremdschlüsseln habe ich auch noch entdeckt. In deiner Datenbank kann pro Event nur eine Competition 
+mit einem Ergbenis von einem Athleten stattfinden, weil der Fremdschlüssel an der falschen Stelle gesetzt ist. 
+
+Ansonsten sind die Fremdschlüssel alle richtig gesetzt! 
+
